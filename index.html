@@ -11,23 +11,37 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
+    <form action="http://example.com/process-user.php" method="GET">
+
+
+
 
 
       <!-- Add a label for 'fullname'-->
-
+      <label for="fullname">What's the fullname ?</label>
+      <input type="text" name="fullname" placeholder="Enter your fullname here">
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+
+       <input type="id" name="fullname" placeholder="Enter your Name here "username" required">
+
       <!-- Include the place holder text "Enter Name" and make this input required -->
+      <input type="email" name="Enter Name" placeholder="Enter your Name here "username" required">
 
 
       <!-- Add a label for 'email'-->
+      <label for="email">What's the password?</label>
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
+      <input type="email" name="password" placeholder="Enter your password here" name="username" required>
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
 
       <!-- Add a label for 'phone'-->
+      <label for='tel'>Where should E.T. &trade; Phone Home?</label>
 
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
+
+        <input id='tel' type="tel" name="phone" placeholder="Phone Number"name="username" optional>
       <!-- Include the place holder text "Enter Telephone (optional)" -->
 
 
@@ -35,14 +49,21 @@
 
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
-
+      <h3>Enter Message</h3>
+      <textarea type="id"name="message"></textarea>
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
+      <h3>What are your favorite?</h3>
+      <input type="checkbox" name="toy-1" value="kong"> Kong <br>
+      <input type="checkbox" name="toy-2" value="stuffed-animals">Stuffed Animals<br>
+      <input type="checkbox" name="toy-3" value="rope-toys">Rope Toys<br>
+      <input type="checkbox" name="toy-4" value="squeaky-toys">Squeaky Toys<br>
+      <input type="checkbox" name="toy-5" value="balls">Balls, Frisbees, anything a dog can fetch<br>
 
 
       <!-- Add an input with the type set to 'submit' -->
+     <input type="submit">
+     </form>
 
-    
   </body>
 </html>
